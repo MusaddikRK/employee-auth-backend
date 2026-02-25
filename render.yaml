@@ -2,5 +2,5 @@ services:
   - type: web
     name: employee-auth-backend
     runtime: java
-    buildCommand: ./mvn clean install
+    buildCommand: mvn clean package
     startCommand: java -jar target/*.jar
